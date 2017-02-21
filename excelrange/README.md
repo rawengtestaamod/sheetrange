@@ -7,7 +7,7 @@ Get excel table horizontal range from values
 for Node.js and Browser.
 -------------------------------------
 
-&copy; Pradeep Mishra, Licensed under the MIT-LICENSE
+&copy; raw eng, Licensed under the MIT-LICENSE
 
 
 
