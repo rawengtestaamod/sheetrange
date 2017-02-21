@@ -1,0 +1,120 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/aamod/.nvm/versions/node/v6.9.1/bin/node',
+1 verbose cli   '/home/aamod/.nvm/versions/node/v6.9.1/bin/npm',
+1 verbose cli   'publish' ]
+2 info using npm@4.0.5
+3 info using node@v6.9.1
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   escapedName: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/aamod/excelrange',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /home/aamod/.npm/excelrange/0.0.1/package.tgz not in flight; packing
+9 verbose correctMkdir /home/aamod/.npm correctMkdir not in flight; initializing
+10 info lifecycle excelrange@0.0.1~prepublish: excelrange@0.0.1
+11 silly lifecycle excelrange@0.0.1~prepublish: no script for prepublish, continuing
+12 info lifecycle excelrange@0.0.1~prepare: excelrange@0.0.1
+13 silly lifecycle excelrange@0.0.1~prepare: no script for prepare, continuing
+14 verbose tar pack [ '/home/aamod/.npm/excelrange/0.0.1/package.tgz',
+14 verbose tar pack   '/home/aamod/excelrange' ]
+15 verbose tarball /home/aamod/.npm/excelrange/0.0.1/package.tgz
+16 verbose folder /home/aamod/excelrange
+17 verbose addLocalTarball adding from inside cache /home/aamod/.npm/excelrange/0.0.1/package.tgz
+18 verbose correctMkdir /home/aamod/.npm correctMkdir not in flight; initializing
+19 silly cache afterAdd excelrange@0.0.1
+20 verbose afterAdd /home/aamod/.npm/excelrange/0.0.1/package/package.json not in flight; writing
+21 verbose correctMkdir /home/aamod/.npm correctMkdir not in flight; initializing
+22 verbose afterAdd /home/aamod/.npm/excelrange/0.0.1/package/package.json written
+23 silly publish { _args: [ [ [Object], '/home/aamod' ] ],
+23 silly publish   _from: '.',
+23 silly publish   _id: 'excelrange@0.0.1',
+23 silly publish   _inCache: true,
+23 silly publish   _installable: true,
+23 silly publish   _location: '/excelrange',
+23 silly publish   _nodeVersion: '6.2.2',
+23 silly publish   _npmOperationalInternal:
+23 silly publish    { host: 'packages-12-west.internal.npmjs.com',
+23 silly publish      tmp: 'tmp/excelrange-0.0.1.tgz_1487274838334_0.5551878060214221' },
+23 silly publish   _npmUser: { name: 'pradeepmishra', email: 'pradeep23oct@gmail.com' },
+23 silly publish   _npmVersion: '3.9.5',
+23 silly publish   _phantomChildren: {},
+23 silly publish   _requested:
+23 silly publish    { raw: 'excelrange',
+23 silly publish      scope: null,
+23 silly publish      escapedName: 'excelrange',
+23 silly publish      name: 'excelrange',
+23 silly publish      rawSpec: '',
+23 silly publish      spec: 'latest',
+23 silly publish      type: 'tag' },
+23 silly publish   _requiredBy: [ '#USER' ],
+23 silly publish   _resolved: 'https://registry.npmjs.org/excelrange/-/excelrange-0.0.1.tgz',
+23 silly publish   _shasum: '71aab0a8959587d26e479f8fb7eb862ea9746b56',
+23 silly publish   _shrinkwrap: null,
+23 silly publish   _spec: 'excelrange',
+23 silly publish   _where: '/home/aamod',
+23 silly publish   author: { name: 'Pradeep Mishra', email: 'pradeep.mishra@raweng.com' },
+23 silly publish   bugs: { url: 'https://github.com/pradeep-mishra/excelrange/issues' },
+23 silly publish   dependencies: {},
+23 silly publish   description: 'Get excel sheet horizontal range from values length',
+23 silly publish   devDependencies: { chai: '^1.10.0', mocha: '^2.1.0' },
+23 silly publish   directories: {},
+23 silly publish   dist:
+23 silly publish    { shasum: '1c1d6a8b40e2c946376c643649b00fe2d0be36b6',
+23 silly publish      tarball: 'https://registry.npmjs.org/excelrange/-/excelrange-0.0.1.tgz' },
+23 silly publish   gitHead: 'b922292ec49c16eb8b0e4bfc4b28c0bddec91c1b',
+23 silly publish   homepage: 'https://github.com/pradeep-mishra/excelrange#readme',
+23 silly publish   keywords: [ 'excel', 'excel range', 'sheet', 'sheet range', 'range' ],
+23 silly publish   license: 'MIT',
+23 silly publish   main: './index.js',
+23 silly publish   maintainers: [ { name: 'pradeepmishra', email: 'pradeep23oct@gmail.com' } ],
+23 silly publish   name: 'excelrange',
+23 silly publish   optionalDependencies: {},
+23 silly publish   readme: 'ERROR: No README data found!',
+23 silly publish   repository:
+23 silly publish    { type: 'git',
+23 silly publish      url: 'git://github.com/pradeep-mishra/excelrange.git' },
+23 silly publish   scripts: {},
+23 silly publish   version: '0.0.1' }
+24 info lifecycle excelrange@0.0.1~prepublishOnly: excelrange@0.0.1
+25 silly lifecycle excelrange@0.0.1~prepublishOnly: no script for prepublishOnly, continuing
+26 verbose getPublishConfig undefined
+27 silly mapToRegistry name excelrange
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry data Result {
+30 silly mapToRegistry   raw: 'excelrange',
+30 silly mapToRegistry   scope: null,
+30 silly mapToRegistry   escapedName: 'excelrange',
+30 silly mapToRegistry   name: 'excelrange',
+30 silly mapToRegistry   rawSpec: '',
+30 silly mapToRegistry   spec: 'latest',
+30 silly mapToRegistry   type: 'tag' }
+31 silly mapToRegistry uri https://registry.npmjs.org/excelrange
+32 verbose publish registryBase https://registry.npmjs.org/
+33 silly publish uploading /home/aamod/.npm/excelrange/0.0.1/package.tgz
+34 verbose stack Error: auth required for publishing
+34 verbose stack     at CachingRegistryClient.publish (/home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/npm-registry-client/lib/publish.js:30:14)
+34 verbose stack     at /home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/lib/publish.js:137:14
+34 verbose stack     at mapToRegistry (/home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/lib/utils/map-to-registry.js:62:3)
+34 verbose stack     at publish_ (/home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/lib/publish.js:108:3)
+34 verbose stack     at Array.<anonymous> (/home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/slide/lib/bind-actor.js:15:8)
+34 verbose stack     at LOOP (/home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/slide/lib/chain.js:15:14)
+34 verbose stack     at /home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+34 verbose stack     at done (/home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/lib/utils/lifecycle.js:132:5)
+34 verbose stack     at LOOP (/home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/slide/lib/chain.js:7:26)
+34 verbose stack     at /home/aamod/.nvm/versions/node/v6.9.1/lib/node_modules/npm/node_modules/slide/lib/chain.js:18:7
+35 verbose cwd /home/aamod/excelrange
+36 error Linux 4.2.0-42-generic
+37 error argv "/home/aamod/.nvm/versions/node/v6.9.1/bin/node" "/home/aamod/.nvm/versions/node/v6.9.1/bin/npm" "publish"
+38 error node v6.9.1
+39 error npm  v4.0.5
+40 error code ENEEDAUTH
+41 error need auth auth required for publishing
+42 error need auth You need to authorize this machine using `npm adduser`
+43 verbose exit [ 1, true ]
